@@ -1,4 +1,3 @@
-
 # Wise-Studio / Eclipse
 .metadata/
 .settings/
@@ -16,12 +15,13 @@ Output/
 *.o
 *.d
 *.log
-
-# SDK generated
-*.dep
-*.lst
 *.axf
 
 # Temporary
 *.tmp
 *.bak
+*.dep
+*.lst
+
+# Config files auto-generated
+*.cfg
