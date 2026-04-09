@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.debug.2014071961">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.debug.2014071961" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.debug.2014071961" name="Debug" parent="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.debug">
+                    					
+                    <folderInfo id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.debug.2014071961." name="/" resourcePath="">
+                        						
+                        <toolChain id="fr.ac6.ide.wise.managedbuild.toolchain.exe.debug.959540477" name="WiSE GCC Toolchain" superClass="fr.ac6.ide.wise.managedbuild.toolchain.exe.debug">
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.optimization.level.1437081953" name="Optimization level" superClass="fr.ac6.ide.wise.managedbuild.option.optimization.level" value="fr.ac6.ide.wise.managedbuild.option.optimization.level.debug" valueType="enumerated"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.optimization.other.1550466521" name="Other flags" superClass="fr.ac6.ide.wise.managedbuild.option.optimization.other" value="-ffunction-sections -fdata-sections" valueType="string"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.debugging.level.589835635" name="Debugging level" superClass="fr.ac6.ide.wise.managedbuild.option.debugging.level" value="fr.ac6.ide.wise.managedbuild.option.debugging.level.max" valueType="enumerated"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.board.1778984066" name="Board" superClass="fr.ac6.ide.wise.managedbuild.option.target.board" value="emb1061" valueType="string"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.soc.1125085310" name="SOC" superClass="fr.ac6.ide.wise.managedbuild.option.target.soc" value="BlueNRG-132" valueType="string"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.series.37255846" name="Series" superClass="fr.ac6.ide.wise.managedbuild.option.target.series" value="BlueNRG-1" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.ide.wise.managedbuild.targetPlatform.1245253004" isAbstract="false" osList="all" superClass="fr.ac6.ide.wise.managedbuild.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Message_Oled}/Debug" id="fr.ac6.ide.wise.managedbuild.builder.1637948328" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="WiSE Builder" superClass="fr.ac6.ide.wise.managedbuild.builder"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.c.compiler.1834427677" name="GCC C Compiler" superClass="fr.ac6.ide.wise.managedbuild.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.compiler.defs.2135210653" name="Defined symbols (-D)" superClass="fr.ac6.ide.wise.managedbuild.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BLUENRG1_DEVICE"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HS_SPEED_XTAL=HS_SPEED_XTAL_16MHZ"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="LS_SOURCE=LS_SOURCE_INTERNAL_RO"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SMPS_INDUCTOR=SMPS_INDUCTOR_4_7uH"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_CONFIGURATION=BLE_STACK_FULL_CONFIGURATION"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.compiler.include.paths.26535651" name="Include paths (-I)" superClass="fr.ac6.ide.wise.managedbuild.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\Utils\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\layers_inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\CMAC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\OTA\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\SDK_Eval_BlueNRG1\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\Bluetooth_LE\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Device\ST\BlueNRG1\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Peripherals_Drivers\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Hal\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.c.compiler.input.860286140" superClass="fr.ac6.ide.wise.managedbuild.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.cpp.compiler.334564392" name="GCC C++ Compiler" superClass="fr.ac6.ide.wise.managedbuild.tool.cpp.compiler"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.c.linker.1696464216" name="GCC Linker" superClass="fr.ac6.ide.wise.managedbuild.tool.c.linker">
+                                								
+                                <option id="fr.ac6.ide.wise.managedbuild.option.c.linker.script.384334376" name="Linker Scripts (-T)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.script" value="${workspace_loc:/${ProjName}}/BlueNRG1.ld" valueType="string"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.linker.libs.1615461255" name="Libraries (-l)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="crypto"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="bluenrg1_stack"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.linker.paths.178133636" name="Library search path (-L)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.c.linker.input.1235292281" superClass="fr.ac6.ide.wise.managedbuild.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.cpp.linker.800920496" name="GCC Linker" superClass="fr.ac6.ide.wise.managedbuild.tool.cpp.linker"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.assembler.800687253" name="GCC Assembler" superClass="fr.ac6.ide.wise.managedbuild.tool.assembler">
+                                								
+                                <option id="fr.ac6.ide.wise.managedbuild.option.assembler.usepreprocessor.801149520" name="Use preprocessor (-x assembler-with-cpp)" superClass="fr.ac6.ide.wise.managedbuild.option.assembler.usepreprocessor"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.assembler.include.paths.1852992288" name="Include paths (-I)" superClass="fr.ac6.ide.wise.managedbuild.option.assembler.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\Utils\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\layers_inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\CMAC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\OTA\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\SDK_Eval_BlueNRG1\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\Bluetooth_LE\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Device\ST\BlueNRG1\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Peripherals_Drivers\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Hal\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.assembler.input.402648780" name="Assembly file" superClass="fr.ac6.ide.wise.managedbuild.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.archiver.799484300" name="GCC Archiver" superClass="fr.ac6.ide.wise.managedbuild.tool.archiver"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.objcopy.423726971" name="Generate binary" superClass="fr.ac6.ide.wise.managedbuild.tool.objcopy"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.size.849798571" name="Print Size" superClass="fr.ac6.ide.wise.managedbuild.tool.size"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="BLE_Application/OTA|Hal/src/vtimer.c|Hal/src/radio_ota.c|Hal/src/hal_radio.c|Hal/src/fifo.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.release.2006545156">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.release.2006545156" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.release.2006545156" name="Release" parent="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.release">
+                    					
+                    <folderInfo id="fr.ac6.ide.wise.managedbuild.projecttype.exe.config.release.2006545156." name="/" resourcePath="">
+                        						
+                        <toolChain id="fr.ac6.ide.wise.managedbuild.toolchain.exe.release.1275101350" name="WiSE GCC Toolchain" superClass="fr.ac6.ide.wise.managedbuild.toolchain.exe.release">
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.optimization.level.712684308" name="Optimization level" superClass="fr.ac6.ide.wise.managedbuild.option.optimization.level" value="fr.ac6.ide.wise.managedbuild.option.optimization.level.size" valueType="enumerated"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.debugging.level.1777326876" name="Debugging level" superClass="fr.ac6.ide.wise.managedbuild.option.debugging.level"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.board.1916600772" name="Board" superClass="fr.ac6.ide.wise.managedbuild.option.target.board" value="emb1061" valueType="string"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.soc.898150738" name="SOC" superClass="fr.ac6.ide.wise.managedbuild.option.target.soc" value="BlueNRG-132" valueType="string"/>
+                            							
+                            <option id="fr.ac6.ide.wise.managedbuild.option.target.series.1313668836" name="Series" superClass="fr.ac6.ide.wise.managedbuild.option.target.series" value="BlueNRG-1" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.ide.wise.managedbuild.targetPlatform.1116349837" isAbstract="false" osList="all" superClass="fr.ac6.ide.wise.managedbuild.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Message_Oled}/Release" id="fr.ac6.ide.wise.managedbuild.builder.224916127" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="WiSE Builder" superClass="fr.ac6.ide.wise.managedbuild.builder"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.c.compiler.1670508222" name="GCC C Compiler" superClass="fr.ac6.ide.wise.managedbuild.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.compiler.defs.441187521" name="Defined symbols (-D)" superClass="fr.ac6.ide.wise.managedbuild.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="BLUENRG1_DEVICE"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="HS_SPEED_XTAL=HS_SPEED_XTAL_16MHZ"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="LS_SOURCE=LS_SOURCE_INTERNAL_RO"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="SMPS_INDUCTOR=SMPS_INDUCTOR_4_7uH"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BLE_STACK_CONFIGURATION=BLE_STACK_FULL_CONFIGURATION"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.compiler.include.paths.305615487" name="Include paths (-I)" superClass="fr.ac6.ide.wise.managedbuild.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\Utils\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\layers_inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\CMAC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\OTA\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\SDK_Eval_BlueNRG1\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\Bluetooth_LE\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Device\ST\BlueNRG1\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Peripherals_Drivers\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Hal\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.c.compiler.input.1201589828" superClass="fr.ac6.ide.wise.managedbuild.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.cpp.compiler.256572047" name="GCC C++ Compiler" superClass="fr.ac6.ide.wise.managedbuild.tool.cpp.compiler"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.c.linker.446202870" name="GCC Linker" superClass="fr.ac6.ide.wise.managedbuild.tool.c.linker">
+                                								
+                                <option id="fr.ac6.ide.wise.managedbuild.option.c.linker.script.704076992" name="Linker Scripts (-T)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.script" value="${workspace_loc:/${ProjName}}/BlueNRG1.ld" valueType="string"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.linker.libs.760108353" name="Libraries (-l)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="crypto"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="bluenrg1_stack"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.c.linker.paths.1570989648" name="Library search path (-L)" superClass="fr.ac6.ide.wise.managedbuild.option.c.linker.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.c.linker.input.1490576665" superClass="fr.ac6.ide.wise.managedbuild.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.cpp.linker.703690175" name="GCC Linker" superClass="fr.ac6.ide.wise.managedbuild.tool.cpp.linker"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.assembler.1198898931" name="GCC Assembler" superClass="fr.ac6.ide.wise.managedbuild.tool.assembler">
+                                								
+                                <option id="fr.ac6.ide.wise.managedbuild.option.assembler.usepreprocessor.2108243289" name="Use preprocessor (-x assembler-with-cpp)" superClass="fr.ac6.ide.wise.managedbuild.option.assembler.usepreprocessor"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="fr.ac6.ide.wise.managedbuild.option.assembler.include.paths.1313911950" name="Include paths (-I)" superClass="fr.ac6.ide.wise.managedbuild.option.assembler.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\Utils\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\layers_inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\AES\CMAC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\BLE_Application\OTA\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\SDK_Eval_BlueNRG1\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\Bluetooth_LE\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Stack\cryptolib\inc\Common&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\CMSIS\Device\ST\BlueNRG1\Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Peripherals_Drivers\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\Hal\inc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="fr.ac6.ide.wise.managedbuild.tool.assembler.input.845994965" name="Assembly file" superClass="fr.ac6.ide.wise.managedbuild.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.archiver.431334539" name="GCC Archiver" superClass="fr.ac6.ide.wise.managedbuild.tool.archiver"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.objcopy.269534144" name="Generate binary" superClass="fr.ac6.ide.wise.managedbuild.tool.objcopy"/>
+                            							
+                            <tool id="fr.ac6.ide.wise.managedbuild.tool.size.65619659" name="Print Size" superClass="fr.ac6.ide.wise.managedbuild.tool.size"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="BLE_Application/OTA|Hal/src/vtimer.c|Hal/src/radio_ota.c|Hal/src/hal_radio.c|Hal/src/fifo.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="Message_Oled.fr.ac6.ide.wise.managedbuild.projecttype.exe.584866277" name="Executable" projectType="fr.ac6.ide.wise.managedbuild.projecttype.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    
+</cproject>
